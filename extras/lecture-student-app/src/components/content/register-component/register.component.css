@@ -1,0 +1,25 @@
+form {
+    border: 1px solid #777;
+    padding: 25px 25px 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#register-container{
+    text-align: center;
+}
+
+label {
+    display: flex;
+}
+
+label > div{
+    flex-grow: 1;
+    text-align: right;
+    padding: 0 10px;
+}
+
+label > input{
+    flex-grow: 0;
+    display: block;
+}

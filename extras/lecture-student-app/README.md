@@ -1,4 +1,19 @@
-1:56:24
+Project Features used:
+--------------------------
+conditional rendering DOM elements:
+conent-component.tsx renders either student-list or register components using a switch returning the state
+
+props:
+values passed form a parent to child component and respresent a dependency of the child.
+Props are function 'parameters' being passed to child components calling them. 
+in Typescript you declare the type of props being called.
+Props can be values & functions.
+Functions passed to the children, can be reacted by the parent component to move data back up the component tree.
+
+Iteratively(looping) render elements or components:
+loop to render components/elements(array of data) by using 'map' a template(Student-Cards data).
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
